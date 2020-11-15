@@ -1,0 +1,20 @@
+[package]
+name = "pepesilvia"
+version = "0.1.0"
+authors = ["Erin Moon <erin@hecke.rs>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0"
+thiserror = "1.0.22"
+log = "0.4.11"
+env_logger = "0.8.1"
+
+futures = "0.3.8"
+
+winit = "0.22.0"
+wgpu = "0.6.0"
+
+imgui = "0.5.0"
+imgui-wgpu = "0.11.0"
+imgui-winit-support = "0.5.0"
